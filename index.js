@@ -22,4 +22,13 @@ function currentLine(katzDeliLine){
   if(katzDeliLine[0] === undefined){
     return 'The line is currently empty.'
   }
+  else{
+    for (var i = 0, i < katzDeliLine.length; i++){
+      var line = katzDeliLine[i]
+      var deliLine =[]
+      deliLine += i + 1
+      deliLine += line
+    }
+  }
+  return 'The line is currently: ' + deliLine
 }
