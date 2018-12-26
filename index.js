@@ -1,5 +1,5 @@
 
-function takeANumber(currentCustomers, newPerson){
+function takeANumber(newPerson){
 currentCustomers = []
 currentCustomers.push(newPerson)
 for(var i = newPerson; i < currentCustomers.length; i++ ){
