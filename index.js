@@ -6,5 +6,5 @@ function takeANumber(listOfCustomers, newPerson){
     newList += people
   }
   newList += newPerson
-  return 'Welcome, ' + newPerson + '. You are number ' + (newList.indexOf(newPerson) + 1) +' in line.'
+  return 'Welcome, ' + newList.slice(0, newList.lemgth-1) + '. You are number ' + (newList.indexOf(newPerson) + 1) +' in line.'
 }
