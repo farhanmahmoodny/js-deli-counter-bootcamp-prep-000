@@ -1,5 +1,5 @@
 
-function takeANumber(liseOfCustormers, newPerson){
+function takeANumber(listOfCustormers, newPerson){
   var newList = []
   for( var i = 0; i < listOfCustomers.length; i++){
     var people = listOfCustomers[i]
