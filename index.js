@@ -4,9 +4,9 @@ function takeANumber(currentNumber, newPerson){
   katzDeliLine.push(newPerson)
   for (var i = 0; i < katzDeliLine.length; i++){
     var line = katzDeliLine[i]
-    var next = line[i]
+    currentNumber = 0
     var number = currentNumber + 1
 
-  return 'Welcome, ' + next + '. You are number ' + number + ' in line.'
+  return 'Welcome, ' + newPerson + '. You are number ' + number + ' in line.'
 }
 }
