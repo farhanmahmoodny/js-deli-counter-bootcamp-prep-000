@@ -1,8 +1,9 @@
 
-function takeANumber(listOfCustomers, newPerson){
+var katzDeliLine = []
+function takeANumber(katzDeliLine, newPerson){
   var newList = []
-  for( var i = 0; i < listOfCustomers.length; i++){
-    var people = listOfCustomers[i]
+  for( var i = 0; i < katzDeliLine.length; i++){
+    var people = katzDeliLine[i]
     newList += people
   }
   newList += newPerson
