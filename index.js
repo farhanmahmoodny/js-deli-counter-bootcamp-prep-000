@@ -1,6 +1,7 @@
 
-var katzDeliLine = []
 function takeANumber(currentNumber, newPerson){
+  var katzDeliLine = []
+  newPerson = ''
   katzDeliLine.push(newPerson)
   currentNumber = 0
   var number = currentNumber + 1
