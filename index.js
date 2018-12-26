@@ -8,14 +8,14 @@ function takeANumber(katzDeliLine, name){
 }
 
 
-function nowServing(deliLine){
-  if(deliLine[0] === undefined){
+function nowServing(katzDeliLine){
+  if(katzDeliLine[0] === undefined){
     return 'There is nobody waiting to be served!'
   }
   else {
-  return 'Currently serving ' + deliLine[0] + '.'
-  deliLine.shift()
+  return 'Currently serving ' + katzDeliLine[0] + '.'
 }
+  return katzDeliLine.shift()
 }
 
 function currentLine(katzDeliLine){
